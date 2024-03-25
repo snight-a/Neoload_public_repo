@@ -1,44 +1,41 @@
 <http-page executeResourcesDynamically="false"
-    name="/actions/Account.action" playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/31b10f78-87ab-48cb-8aa7-487f905d71ac.zip"
-    slaProfileEnabled="false" thinkTime="6598"
+    name="/actions/Catalog.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/88c1c95e-d34d-4ae8-936b-d2f04a6358f0.zip"
+    slaProfileEnabled="false" thinkTime="3431"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="31b10f78-87ab-48cb-8aa7-487f905d71ac">
-    <embedded-action>0184b6e5-2a8d-4cb5-8290-d774f519c0a3</embedded-action>
-    <screenshotFileDescription>recorded-screenshots/sc_31b10f78-87ab-48cb-8aa7-487f905d71ac.jpg</screenshotFileDescription>
+    thinkTimeRangeStart="" uid="88c1c95e-d34d-4ae8-936b-d2f04a6358f0">
+    <embedded-action>82ea39ef-f07c-4931-83fa-ae1075c3d865</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_549c2648-ab70-4122-bf13-e8a408ee1756.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=UTF-8"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
-    method="GET" name="/actions/Account.action"
-    path="/actions/Account.action" postCharset="" postType="6"
-    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/31b10f78-87ab-48cb-8aa7-487f905d71ac.zip"
-    recordedResponseCode="200" responseSize="3624"
+    method="GET" name="/actions/Catalog.action"
+    path="/actions/Catalog.action" postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/88c1c95e-d34d-4ae8-936b-d2f04a6358f0.zip"
+    recordedResponseCode="200" responseSize="4503"
     serverUid="petstore.octoperf.com" slaProfileEnabled="false"
-    uid="0184b6e5-2a8d-4cb5-8290-d774f519c0a3" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_0184b6e5-2a8d-4cb5-8290-d774f519c0a3.0.html</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_0184b6e5-2a8d-4cb5-8290-d774f519c0a3.txt</requestContentFileDescription>
+    uid="82ea39ef-f07c-4931-83fa-ae1075c3d865" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bcdd9ada-4866-45b4-8d85-df6c90de5f2e.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bcdd9ada-4866-45b4-8d85-df6c90de5f2e.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
         defaultValue="&lt;NOT FOUND>" displayMode="0"
-        endsWithSimple="&quot; />&lt;/div>" extractFromVarNameAdv=""
+        endsWithSimple="&quot;>&lt;img src" extractFromVarNameAdv=""
         extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
-        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
-        matchNumberSimple="1" name="c_fpvalue"
-        refererUid="0184b6e5-2a8d-4cb5-8290-d774f519c0a3"
-        regExp="name=&quot;__fp&quot; value=&quot;(.*?)&quot; />&lt;/div>"
+        extractTypeSimple="0" matchNumber="-1" matchNumberAdv="1"
+        matchNumberSimple="-1" name="C_categoryID"
+        refererUid="bcdd9ada-4866-45b4-8d85-df6c90de5f2e"
+        regExp="&lt;a href=&quot;/actions/Catalog\.action\?viewCategory=&amp;amp;categoryId=(.*?)&quot;>&lt;img src"
         regExpAdv="" setDefaultValue="true"
-        startsWithSimple="name=&quot;__fp&quot; value=&quot;"
+        startsWithSimple="&lt;a href=&quot;/actions/Catalog.action?viewCategory=&amp;amp;categoryId="
         template="$1$" templateAdv="$1$"
-        uid="a723de07-60f8-43be-9899-27307065fe82" xpath="">
+        uid="cb0231a5-6aec-41f1-b208-a051ab068371" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
-    <parameter encodeName="true" encodeValue="true" name="signonForm"
-        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="navigate"/>
-    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action"/>
-    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-fetch-site" value="none"/>
     <header name="cookie" value="_ga=GA1.1.369995934.1696435117; _ga_Q0Q7BY8NRR=GS1.1.1696435117.1.1.1696435959.60.0.0; JSESSIONID=BA849C50FC480FDDFEDF6C697F794BC3"/>
     <header name="accept-language" value="en-US,en;q=0.9,hi;q=0.8"/>
     <header name="sec-fetch-user" value="?1"/>
@@ -51,11 +48,10 @@
     <header name="sec-fetch-dest" value="document"/>
     <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
     <responseHeaders>HTTP/2.0 200&#xd;
-date: Mon, 29 Jan 2024 05:21:16 GMT&#xd;
+date: Mon, 29 Jan 2024 05:21:08 GMT&#xd;
 content-type: text/html;charset=UTF-8&#xd;
-content-length: 3624&#xd;
+content-length: 4503&#xd;
 content-language: en&#xd;
 strict-transport-security: max-age=31536000; includeSubDomains; preload</responseHeaders>
-    <record-html-infos extractorContent="Sign In" extractorOccurence="3"
-        extractorRegExp="false" htmlType="1"/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>

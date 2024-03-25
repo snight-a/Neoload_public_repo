@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/actions/Account.action" playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/e1784c4e-cee0-479a-9c40-72803d085a11.zip"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/0e8244d3-b551-41c4-a1f8-d4ebb354492e.zip"
     slaProfileEnabled="false" thinkTime="1392"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="e1784c4e-cee0-479a-9c40-72803d085a11">
-    <embedded-action>57116f37-6fef-4288-91f9-617ecbeec821</embedded-action>
-    <embedded-action>b61271bf-8ea7-4ee1-b83f-255825171867</embedded-action>
+    thinkTimeRangeStart="" uid="0e8244d3-b551-41c4-a1f8-d4ebb354492e">
+    <embedded-action>8ec16d36-fb4c-46b6-aff7-d038288d8745</embedded-action>
+    <embedded-action>bd128832-8750-40c5-b929-cc9852f67bec</embedded-action>
     <screenshotFileDescription>recorded-screenshots/sc_e1784c4e-cee0-479a-9c40-72803d085a11.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" extractorInjectPathPolicy="2"
@@ -14,11 +14,11 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/actions/Account.action"
     path="/actions/Account.action" postCharset="iso-8859-1" postType="1"
-    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/e1784c4e-cee0-479a-9c40-72803d085a11.zip"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/0e8244d3-b551-41c4-a1f8-d4ebb354492e.zip"
     recordedResponseCode="302"
-    refererUid="0184b6e5-2a8d-4cb5-8290-d774f519c0a3" responseSize="0"
+    refererUid="4a9bf45a-ec64-4526-8e27-34521937fe35" responseSize="0"
     serverUid="petstore.octoperf.com" slaProfileEnabled="false"
-    uid="57116f37-6fef-4288-91f9-617ecbeec821" useKeepAlive="false">
+    uid="8ec16d36-fb4c-46b6-aff7-d038288d8745" useKeepAlive="false">
     <binaryPostContentBase64><![CDATA[dXNlcm5hbWU9ajJlZSZwYXNzd29yZD0ke0F1dG9QYXNzd29yZF8xfSZzaWdub249TG9naW4mX3NvdXJjZVBhZ2U9VFFhS1J0WmVmLXVLZDliS0N2RWlDZkY2V1E3ZXd4TTRrX3dGWWU4ZDNTMjg0eUJXQUI4WG5ob3ZVNjREcUlJOVdINnN0WFBYNk5pWHREeTFiWDBrQzh0M2pZR2QtVlI5Tk8ydkJRb21ES2slM0QmX19mcD1XZjBpQjBTOUprMzBQRVVwREhINDJXOUxfMmxpV0lSci1hTllYN19fSloyUGZDZ3NCaFBwdE83SU1EaGV3SmR4]]></binaryPostContentBase64>
     <responsePageFileDescription>recorded-responses/res_57116f37-6fef-4288-91f9-617ecbeec821</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_57116f37-6fef-4288-91f9-617ecbeec821.txt</requestContentFileDescription>
@@ -69,11 +69,11 @@ strict-transport-security: max-age=31536000; includeSubDomains; preload</respons
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/actions/Catalog.action"
     path="/actions/Catalog.action" postType="6"
-    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/e1784c4e-cee0-479a-9c40-72803d085a11.zip"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/0e8244d3-b551-41c4-a1f8-d4ebb354492e.zip"
     recordedResponseCode="200"
-    refererUid="57116f37-6fef-4288-91f9-617ecbeec821"
+    refererUid="8ec16d36-fb4c-46b6-aff7-d038288d8745"
     responseSize="4730" serverUid="petstore.octoperf.com"
-    slaProfileEnabled="false" uid="b61271bf-8ea7-4ee1-b83f-255825171867" useKeepAlive="false">
+    slaProfileEnabled="false" uid="bd128832-8750-40c5-b929-cc9852f67bec" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b61271bf-8ea7-4ee1-b83f-255825171867.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b61271bf-8ea7-4ee1-b83f-255825171867.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="navigate"/>

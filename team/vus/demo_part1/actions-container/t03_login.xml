@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="t03_login" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="bfd7d07c-5baf-421b-ab28-35a671b6aa67" weightsEnabled="false">
+    <weighted-embedded-action uid="0e8244d3-b551-41c4-a1f8-d4ebb354492e"/>
+    <weighted-embedded-action uid="6bf134c8-c3ec-4da4-bf5c-1e504a6062ca"/>
+</basic-logical-action-container>
