@@ -1,0 +1,4 @@
+<variable-file delimiters="," filename="variable/logindata.txt" name="FileVariable_2" offset="1" order="3" policy="5" range="1" uid="5a093003-b839-44ef-8109-19e727712cb0" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="password" number="1"/>
+<column name="username" number="0"/>
+</variable-file>

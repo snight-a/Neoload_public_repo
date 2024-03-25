@@ -1,0 +1,85 @@
+<http-page executeResourcesDynamically="false"
+    name="/actions/Account.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/d4eda01a-e850-43c4-a8eb-418f1da67afe.zip"
+    slaProfileEnabled="false" thinkTime="4716"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d4eda01a-e850-43c4-a8eb-418f1da67afe">
+    <embedded-action>d8da448e-0e22-468a-bc99-33b96e675bb8</embedded-action>
+    <embedded-action>d7d81a82-d373-41d2-9b42-cf9ca8dfeff6</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_d4eda01a-e850-43c4-a8eb-418f1da67afe.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Account.action"
+    path="/actions/Account.action" postType="6"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/d4eda01a-e850-43c4-a8eb-418f1da67afe.zip"
+    recordedResponseCode="302"
+    refererUid="4078ea55-9950-411e-92bc-078c8740fdf4" responseSize="0"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="d8da448e-0e22-468a-bc99-33b96e675bb8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d8da448e-0e22-468a-bc99-33b96e675bb8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d8da448e-0e22-468a-bc99-33b96e675bb8.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="signoff"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga=GA1.1.369995934.1696435117; _ga_Q0Q7BY8NRR=GS1.1.1696435117.1.1.1696435959.60.0.0; JSESSIONID=BA849C50FC480FDDFEDF6C697F794BC3"/>
+    <header name="accept-language" value="en-US,en;q=0.9,hi;q=0.8"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not_A Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;120&quot;, &quot;Google Chrome&quot;;v=&quot;120&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Mon, 29 Jan 2024 05:22:54 GMT&#xd;
+Content-Length: 0&#xd;
+location: /actions/Catalog.action&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload</responseHeaders>
+    <record-html-infos extractorContent="Sign Out"
+        extractorOccurence="3" extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="2" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Catalog.action"
+    path="/actions/Catalog.action" postType="6"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/d4eda01a-e850-43c4-a8eb-418f1da67afe.zip"
+    recordedResponseCode="200"
+    refererUid="d8da448e-0e22-468a-bc99-33b96e675bb8"
+    responseSize="4503" serverUid="petstore.octoperf.com"
+    slaProfileEnabled="false" uid="d7d81a82-d373-41d2-9b42-cf9ca8dfeff6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d7d81a82-d373-41d2-9b42-cf9ca8dfeff6.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d7d81a82-d373-41d2-9b42-cf9ca8dfeff6.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga=GA1.1.369995934.1696435117; _ga_Q0Q7BY8NRR=GS1.1.1696435117.1.1.1696435959.60.0.0; JSESSIONID=BA849C50FC480FDDFEDF6C697F794BC3"/>
+    <header name="accept-language" value="en-US,en;q=0.9,hi;q=0.8"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not_A Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;120&quot;, &quot;Google Chrome&quot;;v=&quot;120&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Mon, 29 Jan 2024 05:22:55 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 4503&#xd;
+set-cookie: JSESSIONID=D30955F50C1D26667378CA9E6777CBBE; Path=/; HttpOnly&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

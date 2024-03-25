@@ -1,0 +1,4 @@
+<variable-file delimiters=";" filename="variable/iteam.txt" name="FileVariable_1" offset="1" order="3" policy="5" range="1" uid="dfdcebee-de9f-4d4d-a311-9647a56f3e1c" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<description>select pet category</description>
+<column name="p_categoryID" number="0"/>
+</variable-file>

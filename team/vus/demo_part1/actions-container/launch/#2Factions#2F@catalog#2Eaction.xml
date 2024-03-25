@@ -1,0 +1,57 @@
+<http-page executeResourcesDynamically="false"
+    name="/actions/Catalog.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/549c2648-ab70-4122-bf13-e8a408ee1756.zip"
+    slaProfileEnabled="false" thinkTime="3431"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="549c2648-ab70-4122-bf13-e8a408ee1756">
+    <embedded-action>bcdd9ada-4866-45b4-8d85-df6c90de5f2e</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_549c2648-ab70-4122-bf13-e8a408ee1756.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Catalog.action"
+    path="/actions/Catalog.action" postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/549c2648-ab70-4122-bf13-e8a408ee1756.zip"
+    recordedResponseCode="200" responseSize="4503"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="bcdd9ada-4866-45b4-8d85-df6c90de5f2e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bcdd9ada-4866-45b4-8d85-df6c90de5f2e.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bcdd9ada-4866-45b4-8d85-df6c90de5f2e.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;>&lt;img src" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="-1" matchNumberAdv="1"
+        matchNumberSimple="-1" name="C_categoryID"
+        refererUid="bcdd9ada-4866-45b4-8d85-df6c90de5f2e"
+        regExp="&lt;a href=&quot;/actions/Catalog\.action\?viewCategory=&amp;amp;categoryId=(.*?)&quot;>&lt;img src"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="&lt;a href=&quot;/actions/Catalog.action?viewCategory=&amp;amp;categoryId="
+        template="$1$" templateAdv="$1$"
+        uid="cb0231a5-6aec-41f1-b208-a051ab068371" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="cookie" value="_ga=GA1.1.369995934.1696435117; _ga_Q0Q7BY8NRR=GS1.1.1696435117.1.1.1696435959.60.0.0; JSESSIONID=BA849C50FC480FDDFEDF6C697F794BC3"/>
+    <header name="accept-language" value="en-US,en;q=0.9,hi;q=0.8"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not_A Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;120&quot;, &quot;Google Chrome&quot;;v=&quot;120&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Mon, 29 Jan 2024 05:21:08 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 4503&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
