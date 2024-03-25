@@ -1,10 +1,10 @@
 <http-page executeResourcesDynamically="false"
     name="/actions/Catalog.action" playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/e1d38c39-ff8f-428d-8102-232c09789cbd.zip"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/e3d74aa5-8af4-48fe-b933-882d3834b813.zip"
     slaProfileEnabled="false" thinkTime="7414"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="e1d38c39-ff8f-428d-8102-232c09789cbd">
-    <embedded-action>ecded17d-99b5-49de-a4b2-abf41809b42a</embedded-action>
+    thinkTimeRangeStart="" uid="e3d74aa5-8af4-48fe-b933-882d3834b813">
+    <embedded-action>b8a3e667-f054-41da-a498-267e196b94e8</embedded-action>
     <screenshotFileDescription>recorded-screenshots/sc_e1d38c39-ff8f-428d-8102-232c09789cbd.jpg</screenshotFileDescription>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=UTF-8"
@@ -14,10 +14,10 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/actions/Catalog.action"
     path="/actions/Catalog.action" postCharset="" postType="6"
-    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/e1d38c39-ff8f-428d-8102-232c09789cbd.zip"
+    recordedArtifactZipFileName="team/vus/demo_part1/%resources%/recorded-artifacts/e3d74aa5-8af4-48fe-b933-882d3834b813.zip"
     recordedResponseCode="200" responseSize="3653"
     serverUid="petstore.octoperf.com" slaProfileEnabled="false"
-    uid="ecded17d-99b5-49de-a4b2-abf41809b42a" useKeepAlive="false">
+    uid="b8a3e667-f054-41da-a498-267e196b94e8" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_ecded17d-99b5-49de-a4b2-abf41809b42a.0.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_ecded17d-99b5-49de-a4b2-abf41809b42a.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
