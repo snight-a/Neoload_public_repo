@@ -1,0 +1,14 @@
+# Project description file
+
+project.name=petstore_demo
+project.version=8.6
+project.original.version=8.6
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=9.0.1
+project.is-open-test-settings-after-upload=false
+project.id=b69d28e7-880f-43c6-9ffa-98fc412682cc
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=false
+product.version=9.0.1
