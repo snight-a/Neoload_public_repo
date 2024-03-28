@@ -24,7 +24,7 @@
     <responsePageFileDescription>recorded-responses/res_cffd8eff-c6d9-4716-8f19-05fa05b9d50f</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_7a5900aa-5f68-4258-bd9c-a05be0fe8b83.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="username"
-        recordRawValue="j2ee" separator="=" value="j2ee" valueMode="USE_VALUE"/>
+        recordRawValue="j2ee" separator="=" value="j2eeeee" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="password"
         recordRawValue="${AutoPassword_1}" separator="="
         value="${AutoPassword_1}" valueMode="USE_VALUE"/>

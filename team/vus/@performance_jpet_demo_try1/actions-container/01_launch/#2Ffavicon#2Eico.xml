@@ -1,5 +1,5 @@
-<http-page executeResourcesDynamically="false" name="/favicon.ico"
-    playRequestsSequentially="false"
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/favicon.ico" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@performance_jpet_demo_try1/%resources%/recorded-artifacts/17a4a719-1745-481a-ae43-4c6164d372c8.zip"
     slaProfileEnabled="false" thinkTime="22"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
