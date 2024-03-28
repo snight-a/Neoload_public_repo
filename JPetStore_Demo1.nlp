@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=JPetStore_Demo1
+project.version=8.6
+project.original.version=8.6
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=9.0.1
+project.is-open-test-settings-after-upload=false
+project.id=19ec026d-5666-40d0-a784-4be03258246f
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+project.workspace=5e3acde2e860a132744ca916
+project.test-settings=3ed1919d-799b-4549-bcb8-c1ba3fb303af
+team.server.project=/snight-a/Neoload_public_repo.git

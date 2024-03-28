@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_Fish_proceedtoCheckout" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="779ade32-440d-444e-b1df-8cd4eb59beea" weightsEnabled="false">
+    <weighted-embedded-action uid="6fbb473d-91f6-475e-9f76-c896f43d8ad2"/>
+</basic-logical-action-container>

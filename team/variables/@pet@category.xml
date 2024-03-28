@@ -1,0 +1,4 @@
+<variable-list name="PetCategory" offset="1" order="3" policy="4" range="1" uid="f52e5cb7-5057-4f86-9316-8511c65c9d6a" whenOutOfValues="CYCLE_VALUES">
+<column name="Item" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAAEdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQABEZJU0h1cQB+AAIAAAABdAAERE9HU3VxAH4AAgAAAAF0AARDQVRTdXEAfgACAAAAAXQABUJJUkRT]]></values>
+</variable-list>

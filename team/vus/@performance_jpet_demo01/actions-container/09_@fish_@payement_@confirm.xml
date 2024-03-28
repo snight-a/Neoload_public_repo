@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="09_Fish_Payement_Confirm" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="77c405b9-263a-4db8-be3c-323de4473d7c" weightsEnabled="false">
+    <weighted-embedded-action uid="56955786-38a1-43eb-bbe2-2ee5ae752fe1"/>
+</basic-logical-action-container>

@@ -1,0 +1,46 @@
+<http-page executeResourcesDynamically="false"
+    name="/actions/Order.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@performance_jpet_demo_try1/%resources%/recorded-artifacts/6fbb473d-91f6-475e-9f76-c896f43d8ad2.zip"
+    slaProfileEnabled="false" thinkTime="12514"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6fbb473d-91f6-475e-9f76-c896f43d8ad2">
+    <embedded-action>ae4982a1-5cad-441b-9ce6-2093a47c06a2</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_36b96d39-7118-45d4-b55f-5229a5371016.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Order.action"
+    path="/actions/Order.action" postType="6"
+    recordedArtifactZipFileName="team/vus/@performance_jpet_demo_try1/%resources%/recorded-artifacts/6fbb473d-91f6-475e-9f76-c896f43d8ad2.zip"
+    recordedResponseCode="200" responseSize="5158"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="ae4982a1-5cad-441b-9ce6-2093a47c06a2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_93d4745f-33fc-48a9-b8e2-758ac7cc0d5a.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_93d4745f-33fc-48a9-b8e2-758ac7cc0d5a.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="newOrderForm"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=9FDA6465ECCC12A8754C1B7F1C575CED"/>
+    <header name="accept-language" value="en-US,en;q=0.9,hi;q=0.8"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;106&quot;, &quot;Google Chrome&quot;;v=&quot;106&quot;, &quot;Not;A=Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 01 Nov 2022 03:19:45 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 5158&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

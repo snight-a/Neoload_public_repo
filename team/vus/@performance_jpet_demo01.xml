@@ -1,0 +1,34 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="Performance_jpet_demo01">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="b722029d-29fe-4b0e-a5c2-f175fcfce4be"/>
+        <weighted-embedded-action uid="accd2089-ab9e-4c21-bad7-d75f24b26baf"/>
+        <weighted-embedded-action uid="37d891c6-552b-4296-8ce9-1b5373d22dd4"/>
+        <weighted-embedded-action uid="f75d36e5-7219-4167-96d1-583551eb05bc"/>
+        <weighted-embedded-action uid="f1ef0b4a-a6c4-4c5f-96b9-e8fd4084ed18"/>
+        <weighted-embedded-action uid="cea76f92-04bf-45bb-aec1-d06a45019f70"/>
+        <weighted-embedded-action uid="89fbac8c-fce9-4362-af62-62312ab8a3f0"/>
+        <weighted-embedded-action uid="901a51e3-62fa-49cc-ae44-1a4d1eb4951c"/>
+        <weighted-embedded-action uid="ebe5a1e7-4990-40c9-bc09-c70f630efdb1"/>
+        <weighted-embedded-action uid="77c405b9-263a-4db8-be3c-323de4473d7c"/>
+        <weighted-embedded-action uid="43e598d4-969b-4de3-9492-f8454f78e3d3"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

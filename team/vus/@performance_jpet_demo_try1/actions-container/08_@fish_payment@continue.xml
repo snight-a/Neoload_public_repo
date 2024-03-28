@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="08_Fish_paymentContinue" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="e45b9bc3-08ad-45cc-858c-d0a0a0c08b05" weightsEnabled="false">
+    <weighted-embedded-action uid="edf34cb2-5944-4641-a070-b7323f00e594"/>
+</basic-logical-action-container>

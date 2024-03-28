@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="04_Fish" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="f75d36e5-7219-4167-96d1-583551eb05bc" weightsEnabled="false">
+    <weighted-embedded-action uid="6404e805-6df7-4a57-b390-ea8677abc9e3"/>
+</basic-logical-action-container>
